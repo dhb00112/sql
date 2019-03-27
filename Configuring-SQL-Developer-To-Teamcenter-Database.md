@@ -12,4 +12,4 @@ You basically launch the SQL Developer executable and start by adding a new data
 
 The mandatory information that is to be filled are shown in the image above. One point to note is that the values of the strings 'Hostname' and 'Service Name' can be found either in the tc_profilevars.bat file or by looking up the TC_DB_SERVER and ORACLE_SID environment variables defined on the Teamcenter shell for that environment. Finally, if everything is entered, the 'Test' button can determine if the connection settings are Ok, with a status message as shown in green.
 
-If the status is SUCCESS, we are good to go!. If the status is not SUCCESS, it could be wrong credentials or wrong hostname / database name combinations.
+If the status is `SUCCESS`, we are good to go!. Otherwise, it could be wrong credentials or wrong hostname / database name combinations.
