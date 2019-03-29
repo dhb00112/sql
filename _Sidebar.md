@@ -4,7 +4,7 @@
 * [More Teamcenter Database Tables ][_tctables2]
 * [Query Teamcenter Form Tables ][_queryForms]
 * [Query Teamcenter VLA Tables][_queryVLAs]
-* [Using Common Table Expressions In Teamcenter][_usingCTEs]
+* [Using Common Table Expressions for queries][_usingCTEs]
 
 [_sqldevconfig]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Configuring-SQL-Developer-To-Teamcenter-Database
 [_tctables1]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Basic-Teamcenter-Tables-Of-Interest
