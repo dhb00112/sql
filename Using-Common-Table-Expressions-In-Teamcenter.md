@@ -10,3 +10,5 @@ A snippet of the same could be found below for reference.
 ![CTE Example](https://i.imgur.com/5pXwr2Y.png)
 
 Note that you can achieve the same via a single CTE instead of two CTEs as well.
+
+I personally liked this specific web page on [CTE](https://www.essentialsql.com/introduction-common-table-expressions-ctes/) explaining things pretty well.
