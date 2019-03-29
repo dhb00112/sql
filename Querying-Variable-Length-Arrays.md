@@ -17,7 +17,7 @@ As you can see, all these are arrays, a collection.
 
 VLAs are stored in a different table altogether. For instance, there is a separate database table called `pRelease_Status_List`, which holds all the release status information of all the Item Revisions in the database. This information is directly not present on the Item Revision table i.e., pItemRevision itself. This means that the piece of information that joins both of them is the Item Revision puid.
 
-To be more precise, all the entries in the pRelease_Status_List where its puid column is equal to a particular pItemRevision.puid value, are all the different release statuses that given Item Revision has. 
+To be more precise, all the entries in the `pRelease_Status_List` where its `puid` column is equal to a particular `pItemRevision.puid` value, are all the different release statuses that given Item Revision has. 
 
 Please do note that there are implementations of PLM where an ItemRevision holds multiple release statuses and there are other implementations where an item revision can have only one.
 
