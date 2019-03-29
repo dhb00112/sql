@@ -21,4 +21,4 @@ To be more precise, all the entries in the `pRelease_Status_List` where its `pui
 
 Please do note that there are implementations of PLM where an ItemRevision holds multiple release statuses and there are other implementations where an item revision can have only one.
 
-I have written a sample SQL to query such release status information on Item Revisions and it is presented in the Code section with the name 'List_All_Release_Statuses_On_Item_Revisions.sql'. Please do check it out!.
+I have written a sample SQL to query such release status information on Item Revisions and it is presented in the Code section with the name '`List_All_Release_Statuses_On_Item_Revisions.sql`'. Please do check it out!.
