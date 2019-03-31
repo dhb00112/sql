@@ -18,12 +18,7 @@ Let us take a moment to understand how the datamodel of a BOM gets persisted:
 
 ![BOM Persistence](https://i.imgur.com/D7s4roX.png)
 
-
-
-
-
-
-
+As a fun fact, `BOMWorld` typically refers to the array of different BOM Windows that are opened in Teamcenter BOM applications but not yet closed :).
 
 
 
