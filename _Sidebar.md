@@ -6,6 +6,7 @@
 * [Query Teamcenter VLA Tables][_queryVLAs]
 * [Using Common Table Expressions for queries][_usingCTEs]
 * [BOM World][_bomPersistence]
+* [BOM Queries][_bomQueries]
 
 [_sqldevconfig]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Configuring-SQL-Developer-To-Teamcenter-Database
 [_tctables1]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Basic-Teamcenter-Tables-Of-Interest
@@ -14,3 +15,4 @@
 [_queryVLAs]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Querying-Variable-Length-Arrays
 [_usingCTEs]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Using-Common-Table-Expressions-In-Teamcenter
 [_bomPersistence]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/BOM-World
+[_bomQueries]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/BOM-Queries
