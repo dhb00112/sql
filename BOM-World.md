@@ -10,11 +10,17 @@ This is a literally saying that Car is comprised of Axle and Engine. Now in BOM 
 
 In Teamcenter, Product structures such as these are modelled using both a runtime Business Object ( BOMLine ) as well as a persistent Business object ( PSOccurrence ). More on this later.
 
-The fact that the Item called Axle and Engine occurs in the BOM View of Car in itself is referred to as an `Occurrence`. The equivalent database table for an Occurrence is PSOccurrence. But there is no database table for a BOMLine, because it is a runtime business object.
+The fact that the Item called Axle and Engine occurs in the BOM View of Car in itself is referred to as an `Occurrence`. The equivalent database table for an Occurrence is `PSOccurrence`. But there is no database table for a `BOMLine`, because it is a run-time business object. That means no property on the BOMLine is stored in the database in the table pBOMLine ( because, there is no such table ). Instead, every property that gets seen in Structure Manager or MPP on a BOMLine is either dynamically constructured ( ex: Rule Configured By ) or persistent data stored in other Teamcenter classes like Occurrence and Item/Item Revision.
 
-So this is how the persistent datamodel of a BOM gets stored:
+Let us take a moment to understand how the datamodel of a BOM gets persisted:
 
-`PSBomView` and `PSBomViewRevision` - If you observe the image above, we are looking at the BOM of the top item revision ( that got configured by a revision rule ). This way/view of an Item revision where the BOM could be seen is referred to as the Product Structure BOM View. Each of the components that construct the BOM 
+`PSBomView` and `PSBomViewRevision` - If you observe the image above, we are looking at the BOM of the top item revision ( that got configured by a revision rule ). This way/view of an Item revision where the BOM could be seen is referred to as the Product Structure BOM View. This is managed by the databases classes pPSBOMView and pPSBOMViewRevision. Each of the children Items ( EngineV800 and Axle ) under this parent Item ( Car ), have something called as Occurrences and they get stored registering to the pPSBOMViewRevision. The below diagram would help in understanding more on the same.
+
+![BOM Persistence](https://i.imgur.com/D7s4roX.png)
+
+
+
+
 
 
 
