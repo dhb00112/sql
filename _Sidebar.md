@@ -5,6 +5,7 @@
 * [Query Teamcenter Form Tables ][_queryForms]
 * [Query Teamcenter VLA Tables][_queryVLAs]
 * [Using Common Table Expressions for queries][_usingCTEs]
+* [BOM World][_bomPersistence]
 
 [_sqldevconfig]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Configuring-SQL-Developer-To-Teamcenter-Database
 [_tctables1]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Basic-Teamcenter-Tables-Of-Interest
@@ -12,3 +13,4 @@
 [_queryForms]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Querying-Form-Properties
 [_queryVLAs]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Querying-Variable-Length-Arrays
 [_usingCTEs]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/Using-Common-Table-Expressions-In-Teamcenter
+[_bomPersistence]: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/BOM-World
