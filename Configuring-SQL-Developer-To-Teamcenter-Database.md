@@ -1,7 +1,7 @@
 Since this repository contains the SQLs which I personally felt handy and the Wiki in itself is an explanation of the database table designs, it only follows naturally that we use an SQL interfacing tool for executing our queries. I personally prefer SQL Developer for its ease of use, but there are several other clients that are available like Tora or Toad. 
 
 * SQL Developer can be installed from [Oracle](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) download page.
-* TORA can be downloaded from [sourceforge](https://sourceforge.net/projects/tora/) page.
+* TORA can be downloaded from [Sourceforge](https://sourceforge.net/projects/tora/) page.
 * TOAD can be downloaded from [Toad](http://www.toadworld.com/downloads) site.
 
 Configuring SQL Developer with Teamcenter database
